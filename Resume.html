@@ -20,26 +20,37 @@
 				font-weight: bold;
 			}
 			h1.name {
-				display:inline;
+				display: inline;
+			}
+			dl {
+				margin-top: 0px;
+			}
+			dt {
+				margin-left: 0px;
+				margin-right:5mm;
+				font-weight: bold;
+				float: left;
+			}
+			dt:after {
+				content: ':';
+			}
+			dd {
+				display: block;
+				margin-left: 25mm;
+				margin-bottom: 2mm;
 			}
 		</style>
 	</head>
 	<body>
 		<h1 class="name"> Christopher Vollick </h1> (University of Waterloo Computer Science Student)
-		<table>
-			<tr>
-				<td class="title"> Email: </td>
-				<td> psycotica0@gmail.com </td>
-			</tr>
-			<tr>
-				<td class="title"> Email: </td>
-				<td> cavollic@student.cs.uwaterloo.ca </td>
-			</tr>
-			<tr>
-				<td class="title"> Website: </td>
-				<td> The closest thing I have to a website is <a href="http://github.com/psycotica0">my GitHub profile</a>.</td>
-			</tr>
-		</table>
+		<dl>
+			<dt> Email </dt>
+			<dd> psycotica0@gmail.com </dd>
+			<dt> Email </dt>
+			<dd> cavollic@student.cs.uwaterloo.ca </dd>
+			<dt> Website </dt>
+			<dd> The closest thing I have to a website is <a href="http://github.com/psycotica0">my GitHub profile</a>. </dd>
+		</dl>
 		<h3> Knowledge / Skills </h3>
 		<ul>
 			<li> C / C++</li>
@@ -62,12 +73,10 @@
 				<ul>
 					<li> Used GWT (Java) and Apache OFBiz to make User Interfaces. </li>
 				</ul>
-				<table>
-					<tr>
-						<td class="title"> Contact: </td>
-						<td> Harmeet Bedi (<a href="mailto:harmeet@emforium.com">harmeet@emforium.com</a>) </td>
-					</tr>
-				</table>
+				<dl>
+					<dt> Contact </dt>
+					<dd> Harmeet Bedi (<a href="mailto:harmeet@emforium.com">harmeet@emforium.com</a>) </dd>
+				</dl>
 			</li>
 			<li class="job"> 
 			 <h4 class="jobName"> COMDEV Inc </h4>
@@ -77,12 +86,10 @@
 				 <li> Wrote small proof of concept programs for my boss. </li>
 				 <li> Wrote a FORTRAN to MatLab compiler. </li>
 			 </ul>
-			 <table>
-				 <tr>
-					 <td class="title"> Contact: </td>
-					 <td> Ming Yu (<a href="mailto:ming.yu@comdev.ca">ming.yu@comdev.ca</a>) </td>
-				 </tr>
-			 </table>
+			 <dl>
+				 <dt> Contact </dt>
+				 <dd> Ming Yu (<a href="mailto:ming.yu@comdev.ca">ming.yu@comdev.ca</a>) </dd> 
+			 </dl>
 		 </li>
 		 <li class="job">
 		 	<h4 class="jobName"> COMDEV Inc </h4>
@@ -91,12 +98,10 @@
 				<li> Wrote libraries to communicate with test equipment via a serial port. </li> 
 				<li> Wrote a C++ Win32 GUI to control the test equipment, using my library. </li>
 			</ul>
-			<table>
-				<tr>
-					<td class="title"> Contact: </td>
-					<td> Harmeet Bedi (<a href="mailto:klaus.engel@comdev.ca">klaus.engel@comdev.ca</a>) </td>
-				</tr>
-			</table>
+			<dl>
+				<dt> Contact </dt>
+				<dd> Klaus Engel (<a href="mailto:klaus.engel@comdev.ca">klaus.engel@comdev.ca</a>) </dd>
+			</dl>
 		 </li>
 		</ul>
 	</body>
